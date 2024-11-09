@@ -157,8 +157,16 @@
                         "hidden": true,
                         "overwriteDefaultWith": "{{project.id}}-{{k8s.randomSubdomain}}-open-pvc-pipelines"
                     }
-
-                }
+                },
+                "nameOverride": {
+                    "type": "string",
+                    "form": true,
+                    "title": "nameOverride",
+                    "x-onyxia": {
+                        "hidden": true,
+                        "overwriteDefaultWith": "{{project.id}}-{{k8s.randomSubdomain}}-open-webui-pipelines"
+                    }
+                }     
 
             }
         },
