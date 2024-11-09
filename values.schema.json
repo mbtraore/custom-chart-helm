@@ -150,7 +150,7 @@
                     }
                 },
                 "existingClaim":{
-                    "type":"object",
+                    "type":"string",
                     "form": true,
                     "title": "existingClaim",
                     "x-onyxia": {

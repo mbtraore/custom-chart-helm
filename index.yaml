@@ -11,7 +11,39 @@ entries:
               url: https://github.com/ollama/ollama/releases/tag/v0.4.0
     apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-11-09T02:13:56.953574+01:00"
+    created: "2024-11-09T02:23:29.83458+01:00"
+    description: Get up and running with large language models locally.
+    digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
+    home: https://ollama.ai/
+    icon: https://ollama.ai/public/ollama.png
+    keywords:
+    - ai
+    - llm
+    - llama
+    - mistral
+    kubeVersion: ^1.16.0-0
+    maintainers:
+    - email: contact@otwld.com
+      name: OTWLD
+    name: ollama
+    sources:
+    - https://github.com/ollama/ollama
+    - https://github.com/otwld/ollama-helm
+    type: application
+    urls:
+    - https://mbtraore.github.io/custom-chart-helm/ollama-0.64.0.tgz
+    version: 0.64.0
+  - annotations:
+      artifacthub.io/category: ai-machine-learning
+      artifacthub.io/changes: |
+        - kind: changed
+          description: upgrade app version to 0.4.0
+          links:
+            - name: Ollama release v0.4.0
+              url: https://github.com/ollama/ollama/releases/tag/v0.4.0
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2024-11-09T02:23:29.845492+01:00"
     description: Get up and running with large language models locally.
     digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
     home: https://ollama.ai/
@@ -38,7 +70,7 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: 0.3.35
-    created: "2024-11-09T02:13:56.949999+01:00"
+    created: "2024-11-09T02:23:29.841294+01:00"
     dependencies:
     - condition: ollama.enabled
       import-values:
@@ -60,7 +92,7 @@ entries:
       version: '>=2.9.0'
     description: "Open WebUI: A User-Friendly Web Interface for Chat Interactions
       \U0001F44B"
-    digest: a5ba085a89fc960b2593b7bcf17f51720cd0d04b9b8f2dadf34f68c45952a53b
+    digest: be12544be8d76c2f3323ffcd13053c2b492abda00d6afe8bb15e0904bb259a97
     home: https://www.openwebui.com/
     icon: https://raw.githubusercontent.com/open-webui/open-webui/main/static/favicon.png
     keywords:
@@ -81,7 +113,27 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: alpha
-    created: "2024-11-09T02:13:56.953951+01:00"
+    created: "2024-11-09T02:23:29.841825+01:00"
+    description: 'Pipelines: UI-Agnostic OpenAI API Plugin Framework'
+    digest: ab13acb3869193ec3fcdea3c0ff59e5ef85d997322bd7b2444cdbfce998709cc
+    home: https://github.com/open-webui/pipelines
+    icon: https://github.com/open-webui/pipelines/raw/main/header.png
+    keywords:
+    - llm
+    - chat
+    - web-ui
+    name: pipelines
+    sources:
+    - https://github.com/open-webui/helm-charts
+    - https://github.com/open-webui/pipelines/pkgs/container/pipelines
+    urls:
+    - https://mbtraore.github.io/custom-chart-helm/pipelines-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
+      licenses: MIT
+    apiVersion: v2
+    appVersion: alpha
+    created: "2024-11-09T02:23:29.846024+01:00"
     description: 'Pipelines: UI-Agnostic OpenAI API Plugin Framework'
     digest: ab13acb3869193ec3fcdea3c0ff59e5ef85d997322bd7b2444cdbfce998709cc
     home: https://github.com/open-webui/pipelines
@@ -100,7 +152,39 @@ entries:
   tika:
   - apiVersion: v2
     appVersion: 2.9.0.0
-    created: "2024-11-09T02:13:56.955198+01:00"
+    created: "2024-11-09T02:23:29.843933+01:00"
+    description: The official Helm chart to deploy Apache Tika on Kubernetes
+    digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
+    home: https://tika.apache.org
+    icon: https://tika.apache.org/tika.png
+    keywords:
+    - apache
+    - tika
+    - apache-tika
+    - tika-helm
+    maintainers:
+    - email: lewismc@apache.org
+      name: lewismc
+      url: https://github.com/lewismc
+    - name: stijnbrouwers
+      url: https://github.com/stijnbrouwers
+    - name: philipsoutham
+      url: https://github.com/philipsoutham
+    - name: frascu
+      url: https://github.com/frascu
+    - name: euven
+      url: https://github.com/euven
+    name: tika
+    sources:
+    - https://github.com/apache/tika
+    - https://github.com/apache/tika-helm
+    type: application
+    urls:
+    - https://mbtraore.github.io/custom-chart-helm/tika-2.9.0.tgz
+    version: 2.9.0
+  - apiVersion: v2
+    appVersion: 2.9.0.0
+    created: "2024-11-09T02:23:29.847678+01:00"
     description: The official Helm chart to deploy Apache Tika on Kubernetes
     digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
     home: https://tika.apache.org
@@ -130,4 +214,4 @@ entries:
     urls:
     - https://mbtraore.github.io/custom-chart-helm/charts/tika-2.9.0.tgz
     version: 2.9.0
-generated: "2024-11-09T02:13:56.946157+01:00"
+generated: "2024-11-09T02:23:29.832027+01:00"
